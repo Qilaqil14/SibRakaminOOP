@@ -19,5 +19,5 @@ class Trapesium {
 }
 
 const trapesium = new Trapesium(6, 8, 5, 4, 4);
-console.log('keliling Trapesium:', trapezium.kelilingTrapesium());
-console.log('luas Trapesium:', trapezium.luasTrapesium());
+console.log('keliling Trapesium:', trapesium.kelilingTrapesium());
+console.log('luas Trapesium:', trapesium.luasTrapesium());
