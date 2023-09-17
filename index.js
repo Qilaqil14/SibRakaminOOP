@@ -100,3 +100,26 @@ class Trapesium {
 const trapesium = new Trapesium(6, 8, 5, 4, 4);
 console.log('keliling Trapesium:', trapesium.kelilingTrapesium());
 console.log('luas Trapesium:', trapesium.luasTrapesium());
+
+class PersegiPanjang {
+  constructor(panjang, lebar) {
+    this.panjang = panjang;
+    this.lebar = lebar;
+  }
+
+  hitungLuas() {
+    return this.panjang * this.lebar;
+  }
+
+  hitungKeliling() {
+    return 2 * (this.panjang + this.lebar);
+  }
+}
+
+const persegiPanjang = new PersegiPanjang(4, 5);
+
+const luaspp = persegiPanjang.hitungLuas();
+const kelilingpp = persegiPanjang.hitungKeliling();
+
+console.log("Luas:", luaspp);
+console.log("Keliling:", kelilingpp);
